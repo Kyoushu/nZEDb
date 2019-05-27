@@ -1,0 +1,69 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/kyoushu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/_responsive-tables-js: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:129590:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:130562:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1137:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "kyoushu-nzedb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Kyoushu/nZEDb.git",
+    "author": "James Willans <kyoushu@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "animate.css": "~3.5.1",
+      "autosize": "~3.0.15",
+      "bootstrap-2.3.2": "^1.0.0",
+      "bootstrap": "~3.3.6",
+      "bootstrap-hover-dropdown": "~2.2.1",
+      "bootstrap-progressbar": "~0.9.0",
+      "bootswatch": "^3.3",
+      "chosen-js": "~1.5.1",
+      "jquery-colorbox": "~1.6.3",
+      "fastclick": "~1.0.6",
+      "font-awesome": "~4.5.0",
+      "html5shiv": "~3.7.3",
+      "icheck": "~1.0.2",
+      "jquery": "~2.2.1",
+      "jquery-migrate": "~1.4.0",
+      "jquery.nicescroll": "~3.6.8",
+      "noty": "~2.3.8",
+      "pace-js": "~1.0.2",
+      "pnotify": "~3.0.0",
+      "respond.js": "~1.4.2",
+      "_responsive-tables-js": "git@github.com:smasala/responsive-tables-js.git#10c8ea1f59acb8a00dc4af898d0cd54a527eef5d",
+      "select2": "~4.0.2",
+      "jquery-slimscroll": "~1.3.7",
+      "tinymce": "^4.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

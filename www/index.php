@@ -1,4 +1,5 @@
 <?php
+
 require_once 'smarty.php';
 
 nzedb\utility\Misc::maintainanceCheck();

@@ -31,3 +31,4 @@ test.php
 /templates_c/*
 /libraries/*
 /www/themes/shared/libs/*
+/node_modules/
